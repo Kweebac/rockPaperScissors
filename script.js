@@ -4,16 +4,13 @@ function getComputerChoice() {
 
   switch (randomInt) {
     case 0:
-      choice = "Rock";
-      break;
+      return "Rock";
     case 1:
-      choice = "Paper";
-      break;
+      return "Paper";
     case 2:
-      choice = "Scissors";
-      break;
+      return "Scissors";
   }
 }
+function playerSelection() {}
 
-let choice = "";
-getComputerChoice();
+let computerSelection = getComputerChoice();
