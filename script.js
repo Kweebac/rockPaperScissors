@@ -49,7 +49,7 @@ function playRound(player, computer) {
       }
       break;
     default:
-      console.log("Invalid option");
+      alert("Invalid option");
   }
 }
 
