@@ -43,9 +43,9 @@ function playRound(player, computer) {
         case "rock":
           return "You lose! Scissors < Rock\nPlayer: Scissors\nComputer: Rock";
         case "paper":
-          return "You win! Scissors > Paper\nPlayer: Scissors\nnComputer: Paper";
+          return "You win! Scissors > Paper\nPlayer: Scissors\nComputer: Paper";
         case "scissors":
-          return "It's a tie! Scissors === Scissors\nPlayer: Scissors\nnComputer: Scissors";
+          return "It's a tie! Scissors === Scissors\nPlayer: Scissors\nComputer: Scissors";
       }
       break;
     default:
